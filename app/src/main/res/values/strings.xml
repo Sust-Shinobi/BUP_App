@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">কৃষিসেবা‍‍</string>
+    <string name="nav_open">Open Navigaiton Bar</string>
+    <string name="nav_close">Close Navigaiton Bar</string>
+    <string name="post_title">পোস্টের টাইটেল</string>
+    <string name="post_description">বর্ণনা</string>
+    <string name="sapling_crop_name">শস্য বাছাই করুন</string>
+    <string name="title">নাম</string>
+    <string name="price">দাম</string>
+    <string name="buy_now">ক্রয় করুন</string>
+    <string name="select_your_crop">আপনার ফসল শনাক্ত করুন:</string>
+    <string name="googleMapApi">AIzaSyAzziKHGT_7LkXGiXQl3YaZeqI5tj6_5uQ</string>
+
+
+    <string-array name="crops_list">
+        <item>টমেটো</item>
+        <item>আলু</item>
+        <item>ভুট্টা</item>
+    </string-array>
+
+</resources>

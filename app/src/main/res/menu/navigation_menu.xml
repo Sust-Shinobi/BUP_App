@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:title="হোম পেইজ"
+        android:id="@+id/home"
+        android:icon="@drawable/tree"
+        />
+    <item
+        android:title="আলোচনা"
+        android:id="@+id/community"
+        android:icon="@drawable/community"
+        />
+    <item
+        android:title="সমাধান"
+        android:id="@+id/solution"
+        android:icon="@drawable/solution"
+        />
+    <item
+        android:title="চাষ পদ্ধতি"
+        android:id="@+id/cultivation"
+        android:icon="@drawable/cultivation"
+        />
+</group>
+
+
+    <item android:title="কৃষি দ্রব্য">
+        <menu>
+            <item
+                android:title="উন্নত বীজ এবং চারা"
+                android:id="@+id/seeds"
+                android:icon="@drawable/fertilizer"
+                />
+            <item
+                android:title="উন্নত মানের সার"
+                android:id="@+id/fertilizer"
+                android:icon="@drawable/seed"
+                />
+
+            <item
+                android:title="কৃষি সরঞ্জাম"
+                android:id="@+id/equipment"
+                android:icon="@drawable/equipment"
+                />
+        </menu>
+    </item>
+
+    <item android:title="সাহায্য">
+        <menu>
+            <item
+                android:title="হেল্পলাইন"
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"/>
+            <item
+                android:title="অভিযোগ"
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"/>
+        </menu>
+    </item>
+
+
+</menu>
